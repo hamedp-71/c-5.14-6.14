@@ -1918,7 +1918,7 @@ proxy-groups:
   - name: "⚖️ بالانس بار"
     type: load-balance
     url: "http://www.google.com/generate_204"
-    interval: 300
+    interval: 150
     strategy: "consistent-hashing"
     proxies:
       - "🇮🇷 hamedp71 - IPv4"
