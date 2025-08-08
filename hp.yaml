@@ -66,82 +66,6 @@ sniffer:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 
 proxies:
-  - name: "🇮🇷 hamedp71 - IPv4"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
-    server: 8.34.70.57
-    port: 3138
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇩🇪 hamedp71 - IPv4"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "gEvJgRYd6tzU6yYfAs24Re/8+WWvTsqGMKl+EBCUjFE="
-    server: 8.34.146.113
-    port: 968
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 hamedp71 - IPv4"
-
-  - name: "🇮🇷 hamedp71 - IPv6"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: "[2606:4700:d0::e574:0079:bcd6:e1b4]"
-    port: 1018
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇸🇪 hamedp71 - IPv6"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
-    server: 188.114.98.216
-    port: 1018
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 hamedp71 - IPv6"    
-
   - name: "🇦🇺 Australia - IPv4-1"
     type: wireguard
     ip: 100.80.234.177/32
@@ -1700,7 +1624,83 @@ proxies:
       h1: 1
       h2: 2
       h4: 3
-      h3: 4    
+      h3: 4
+
+  - name: "🇮🇷 hamedp71 - IPv4"
+    type: wireguard
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1
+    private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
+    server: 8.34.70.57
+    port: 3138
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 250
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
+
+  - name: "🇩🇪 hamedp71 - IPv4"
+    type: wireguard
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1
+    private-key: "gEvJgRYd6tzU6yYfAs24Re/8+WWvTsqGMKl+EBCUjFE="
+    server: 8.34.146.113
+    port: 968
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dialer-proxy: "🇮🇷 hamedp71 - IPv4"
+
+  - name: "🇮🇷 hamedp71 - IPv6"
+    type: wireguard
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1
+    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
+    server: "[2606:4700:d0::e574:0079:bcd6:e1b4]"
+    port: 1018
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 250
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
+
+  - name: "🇸🇪 hamedp71 - IPv6"
+    type: wireguard
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1
+    private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
+    server: 188.114.98.216
+    port: 1018
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dialer-proxy: "🇮🇷 hamedp71 - IPv6"
     
 proxy-groups:
   - name: "🌐 گلوبال"
@@ -1709,10 +1709,6 @@ proxy-groups:
       - "🚀 بهترین (با سرعت)"
       - "🔁 سیستم فیلبک"
       - "⚖️ بالانس بار"
-      - "🇮🇷 hamedp71 - IPv4"
-      - "🇩🇪 hamedp71 - IPv4"
-      - "🇮🇷 hamedp71 - IPv6"
-      - "🇸🇪 hamedp71 - IPv6"      
       - "🇦🇺 Australia - IPv4-1"
       - "🇦🇺 Australia - IPv4-2"
       - "🇧🇦 Bosnia and Herzegovina - IPv4"
@@ -1773,6 +1769,10 @@ proxy-groups:
       - "🇻🇳 Vietnam"
       - "🇿🇦 South Africa 1"
       - "🇿🇦 South Africa"
+      - "🇮🇷 hamedp71 - IPv4"
+      - "🇩🇪 hamedp71 - IPv4"
+      - "🇮🇷 hamedp71 - IPv6"
+      - "🇸🇪 hamedp71 - IPv6"
 
   - name: "🚀 بهترین (با سرعت)"
     type: url-test
@@ -1780,10 +1780,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "🇮🇷 hamedp71 - IPv4"
-      - "🇩🇪 hamedp71 - IPv4"
-      - "🇮🇷 hamedp71 - IPv6"
-      - "🇸🇪 hamedp71 - IPv6"      
       - "🇦🇺 Australia - IPv4-1"
       - "🇦🇺 Australia - IPv4-2"
       - "🇧🇦 Bosnia and Herzegovina - IPv4"
@@ -1844,16 +1840,16 @@ proxy-groups:
       - "🇻🇳 Vietnam"
       - "🇿🇦 South Africa 1"
       - "🇿🇦 South Africa"
+      - "🇮🇷 hamedp71 - IPv4"
+      - "🇩🇪 hamedp71 - IPv4"
+      - "🇮🇷 hamedp71 - IPv6"
+      - "🇸🇪 hamedp71 - IPv6"
 
   - name: "🔁 سیستم فیلبک"
     type: fallback
     url: "http://www.google.com/generate_204"
     interval: 300
     proxies:
-      - "🇮🇷 hamedp71 - IPv4"
-      - "🇩🇪 hamedp71 - IPv4"
-      - "🇮🇷 hamedp71 - IPv6"
-      - "🇸🇪 hamedp71 - IPv6"      
       - "🇦🇺 Australia - IPv4-1"
       - "🇦🇺 Australia - IPv4-2"
       - "🇧🇦 Bosnia and Herzegovina - IPv4"
@@ -1914,6 +1910,10 @@ proxy-groups:
       - "🇻🇳 Vietnam"
       - "🇿🇦 South Africa 1"
       - "🇿🇦 South Africa"
+      - "🇮🇷 hamedp71 - IPv4"
+      - "🇩🇪 hamedp71 - IPv4"
+      - "🇮🇷 hamedp71 - IPv6"
+      - "🇸🇪 hamedp71 - IPv6"
 
   - name: "⚖️ بالانس بار"
     type: load-balance
@@ -1921,10 +1921,6 @@ proxy-groups:
     interval: 150
     strategy: "consistent-hashing"
     proxies:
-      - "🇮🇷 hamedp71 - IPv4"
-      - "🇩🇪 hamedp71 - IPv4"
-      - "🇮🇷 hamedp71 - IPv6"
-      - "🇸🇪 hamedp71 - IPv6"      
       - "🇦🇺 Australia - IPv4-1"
       - "🇦🇺 Australia - IPv4-2"
       - "🇧🇦 Bosnia and Herzegovina - IPv4"
@@ -1985,6 +1981,10 @@ proxy-groups:
       - "🇻🇳 Vietnam"
       - "🇿🇦 South Africa 1"
       - "🇿🇦 South Africa"
+      - "🇮🇷 hamedp71 - IPv4"
+      - "🇩🇪 hamedp71 - IPv4"
+      - "🇮🇷 hamedp71 - IPv6"
+      - "🇸🇪 hamedp71 - IPv6"
       
 rule-providers:
   ir:
@@ -2037,7 +2037,7 @@ rules:
   - RULE-SET,phishing,REJECT
   - RULE-SET,cryptominers,REJECT
   - RULE-SET,ads,REJECT
-  - MATCH,⚖️ بالانس بار
+  - MATCH,🌐 گلوبال
 
 ntp:
   enable: true
